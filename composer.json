@@ -1,5 +1,5 @@
 {
-    "name": "luka/php-query-builder",
+    "name": "lukafurlan/php-query-builder",
     "description": "Fast PHP query builder",
     "type": "library",
     "license": "MIT",

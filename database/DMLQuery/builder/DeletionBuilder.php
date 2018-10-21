@@ -40,4 +40,12 @@ class DeletionBuilder extends Builder {
 
     }
 
+    public function bind($bind) {
+
+        $this->bind = array_merge($this->bind, $bind);
+
+        return $this;
+
+    }
+
 }

@@ -1,0 +1,27 @@
+{
+    "name": "luka/php-query-builder",
+    "description": "Fast PHP query builder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luka",
+            "email": "luka.furlan9@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lukafurlan\\database\\": "database/",
+            "lukafurlan\\database\\connector\\": "database/connector/",
+            "lukafurlan\\database\\exception\\": "database/exception/",
+            "lukafurlan\\database\\executor\\": "database/executor/",
+            "lukafurlan\\database\\query\\": "database/query/",
+            "lukafurlan\\database\\query\\builder\\": "database/query/builder/",
+            "lukafurlan\\database\\query\\segment\\": "database/query/segment/"
+        }
+
+    }
+}
